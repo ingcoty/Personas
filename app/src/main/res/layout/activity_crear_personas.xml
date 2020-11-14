@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrearPersonas">
+
+    <TextView
+        android:id="@+id/lblTituloListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_TituloListar"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tblPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/flEnunciados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2sp">
+
+            <TextView
+                android:id="@+id/colNumero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colNumero" />
+
+            <TextView
+                android:id="@+id/colCedula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Txt_Cedula" />
+
+            <TextView
+                android:id="@+id/colNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Txt_Nombre" />
+
+            <TextView
+                android:id="@+id/ColApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Txt_Apellido" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

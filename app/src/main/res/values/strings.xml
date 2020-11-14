@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Personas</string>
+    <string name="Titulo_crear_persona">CREAR PERSONA</string>
+    <string name="Txt_Cedula">Cédula</string>
+    <string name="Txt_Nombre">Nombre</string>
+    <string name="Txt_Apellido">Apellido</string>
+    <string name="Btn_Guardar">Guardar</string>
+    <string name="Btn_Limpiar">LIMPIAR</string>
+    <string name="lbl_TituloListar">PERSONAS</string>
+    <string name="colNumero">No.</string>
 </resources>
