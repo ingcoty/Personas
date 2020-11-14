@@ -8,4 +8,12 @@
     <string name="Btn_Limpiar">LIMPIAR</string>
     <string name="lbl_TituloListar">PERSONAS</string>
     <string name="colNumero">No.</string>
+    <string name="listar">Listar</string>
+    <string name="crear">Crear</string>
+
+    <string-array name="opciones">
+        <item>@string/crear</item>
+        <item>@string/listar</item>
+    </string-array>
+
 </resources>
